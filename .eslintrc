@@ -14,7 +14,7 @@
     {
       // Overriding no props spreading on HOC
       // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md#when-not-to-use-it
-      "files": ["src/components/hoc/**"],
+      "files": ["src/components/hoc/**", "pages/_app.jsx"],
       "rules": {
         "react/jsx-props-no-spreading": ["off"]
       }
