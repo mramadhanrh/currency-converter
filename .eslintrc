@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [".storybook/**", "stories/**"]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      // Overriding no props spreading on HOC
+      // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md#when-not-to-use-it
+      "files": ["src/components/hoc/**"],
+      "rules": {
+        "react/jsx-props-no-spreading": ["off"]
+      }
+    }
+  ]
+}
