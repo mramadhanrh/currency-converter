@@ -10,7 +10,7 @@ const HomeTemplate = ({ header, children }) => {
   return (
     <Layout>
       <Header className={styles.header}>{header}</Header>
-      <Content>{children}</Content>
+      <Content className={styles.content}>{children}</Content>
     </Layout>
   );
 };

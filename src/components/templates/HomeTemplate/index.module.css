@@ -1,3 +1,11 @@
 .header {
   background-color: #ffffff;
+  padding: 15px;
+  height: fit-content;
+  box-shadow: 0px 10px 15px 0px rgba(221, 221, 221, 0.25);
+  line-height: normal;
+}
+
+.content {
+  padding: 15px;
 }

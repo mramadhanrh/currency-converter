@@ -1,0 +1,25 @@
+.card {
+  height: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card__wrapper {
+  background-color: rebeccapurple;
+  height: 100%;
+  width: 100%;
+  min-height: 50px;
+}
+
+.card__row {
+  height: 100%;
+}
+
+.card__button {
+  border: none;
+  background: none;
+  background-color: violet;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
