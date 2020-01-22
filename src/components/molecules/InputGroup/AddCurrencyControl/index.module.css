@@ -1,0 +1,12 @@
+.container__add-button {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  height: initial;
+  padding: 15px;
+}
+
+.add-button__icon svg {
+  margin-bottom: -1.5px;
+  margin-right: 5px;
+}

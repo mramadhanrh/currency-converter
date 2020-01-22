@@ -1,0 +1,18 @@
+.header--col {
+  line-height: 32px;
+}
+
+.header__title {
+  margin-bottom: 10px;
+}
+
+.header__currency {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.header__currency-input {
+  text-align: right;
+  line-height: normal;
+  width: 100%;
+}

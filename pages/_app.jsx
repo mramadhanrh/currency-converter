@@ -1,6 +1,7 @@
 import React from 'react';
 import App from 'next/app';
 import Head from 'next/head';
+import withRedux from '../src/components/hoc/withRedux';
 
 // Disabled because we could not control what passed to the component
 // it was controlled by the framework it self
@@ -9,6 +10,7 @@ const CustomApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
+        <link rel="stylesheet" type="text/css" href="static/css/global.css" />
         <link rel="stylesheet" type="text/css" href="static/css/antd.min.css" />
         <title>Currency Converter</title>
       </Head>
@@ -22,4 +24,4 @@ CustomApp.getInitialProps = async appContext => {
   return { ...appProps };
 };
 
-export default CustomApp;
+export default withRedux(CustomApp);
