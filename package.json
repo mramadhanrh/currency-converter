@@ -13,7 +13,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "heroku:postbuild": "npm run start"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
